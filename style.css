@@ -102,7 +102,7 @@ nav .logo {
   bottom: 0;
 }
 
-/*----------- anitation --------*/
+/*----------- animatation --------*/
 .header h1 span {
   background: linear-gradient(#000, #000);
   background-repeat: no-repeat;
@@ -141,6 +141,7 @@ nav .logo {
 .menu-icon {
     display: none;
 }
+
 /* ------ Responsive for navbar ----- */
 
 @media only screen and (max-width: 600px) {
@@ -170,4 +171,22 @@ nav .logo {
     display: block;
     width: 30px;
 }
+  .show-menu {
+    max-height: 60px;
+  }
+}
+
+/* ------ Responsive for header content ----- */
+
+@media only screen and (max-width: 600px) {
+  .header {
+    min-height: auto;
+    padding: 0;
+  }
+  .user-img {
+    width: 100%;
+    right: auto;
+    position: relative;
+    margin-top: 100px;
+  }
 }
