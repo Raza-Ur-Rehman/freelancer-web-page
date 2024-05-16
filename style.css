@@ -94,7 +94,7 @@ nav .logo {
   max-width: 360px;
   font-weight: 500;
 }
-.user-img {
+#user-img {
   width: 80%;
   max-width: 500px;
   position: absolute;
@@ -106,7 +106,7 @@ nav .logo {
 .header h1 span {
   background: linear-gradient(#000, #000);
   background-repeat: no-repeat;
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   background-size: 0%;
 }
@@ -144,7 +144,7 @@ nav .logo {
 
 /* ------ Responsive for navbar ----- */
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 900px) {
   nav ul {
     position: absolute;
     width: 100%;
@@ -178,15 +178,15 @@ nav .logo {
 
 /* ------ Responsive for header content ----- */
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 900px) {
   .header {
-    min-height: auto;
+    /* min-height: auto; */
     padding: 0;
   }
-  .user-img {
+  #user-img {
     width: 100%;
-    right: auto;
-    position: relative;
-    margin-top: 100px;
+    max-width: 500px;
+    position: absolute;
+    display: block;
   }
 }
